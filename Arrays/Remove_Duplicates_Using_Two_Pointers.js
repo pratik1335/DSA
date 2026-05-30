@@ -20,4 +20,15 @@ function removeDuplicate(arr){
 let arr = [1,2,2,3,3,4,4,5,5,5,6,7,8,9,9,9,10,10,10];
 
 let k = removeDuplicate(arr);
-console.log(arr.splice(0, k));
+console.log(arr.slice(0, k));
+
+// Note:
+// i = maintains answer
+// j = explores array
+
+// Two pointers pattern used in 
+// 1. Remove duplicates
+// 2. Move Zeroes
+// 3. Merge Sorted Arrays
+// 4. Container with most water
+// 5. Many Sliding window problems.
