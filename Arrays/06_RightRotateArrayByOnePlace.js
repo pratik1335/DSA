@@ -29,3 +29,8 @@ let rigthRotatedArray = rightRotatebyOnePlace(arr);
 console.log("Right Rotated array: ",rigthRotatedArray);
 
 
+// Pattern Recognition
+// Right Rotate
+// 1. Save last
+// 2. Shift Right
+// 3. Put at beginning

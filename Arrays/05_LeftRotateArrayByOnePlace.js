@@ -30,3 +30,8 @@ let leftRotatedArray = leftRotatebyOnePlace(arr);
 console.log("Left Rotated array: ",leftRotatedArray);
 
 
+// Pattern Recognition
+// Left Rotate
+// 1. Save first
+// 2. Shift Left
+// 3. Put at end
