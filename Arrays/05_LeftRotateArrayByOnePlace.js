@@ -12,9 +12,10 @@ function leftRotatebyOnePlace(arr){
         }
         
         arr[arr.length-1] = temp;
+
+        return arr;
     }
 
-    return arr;
 }
 
 // let arr = [1,2,3,4,5,6];
@@ -24,8 +25,8 @@ let arr = [-1,2,-3,4,5,-6];
 
 console.log("Original Array: ", arr);
 
-let rotatedArray = leftRotatebyOnePlace(arr);
+let leftRotatedArray = leftRotatebyOnePlace(arr);
 
-console.log("Rotated array: ",rotatedArray);
+console.log("Left Rotated array: ",leftRotatedArray);
 
 
