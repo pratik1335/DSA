@@ -35,3 +35,8 @@ console.log("Left Rotated array: ",leftRotatedArray);
 // 1. Save first
 // 2. Shift Left
 // 3. Put at end
+
+
+// Note: Brute force
+// Rotate by 2 = Rotate by 1 + Rotate by 1
+// Rotate by 3 = Rotate by 1 + Rotate by 1 + Rotate by 1
